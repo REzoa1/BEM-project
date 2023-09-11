@@ -12,6 +12,12 @@ button {
     cursor: pointer;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
 .body {
     margin: 0;
     height: 100vh;
@@ -154,7 +160,6 @@ button {
     .slide-menu {
         margin-top: 25px;
         margin-bottom: 7px;
-        padding-bottom: 7px;
         white-space: nowrap;
         overflow: auto;
         display: flex;
