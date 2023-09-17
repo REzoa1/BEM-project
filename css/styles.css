@@ -108,8 +108,13 @@ button {
 
     .navigation__logo {
         padding-right: 16px;
-        border-right: 1px solid #EAEAEA;
-        margin-right: 16px;
+    }
+
+    .navigation__divider {
+        height: 32px;
+        width: 2px;
+        background-color: #EAEAEA;
+        align-self: center;
     }
 
     .navigation__button {
@@ -224,9 +229,12 @@ button {
 
     .navigation__logo {
         padding-right: 0;
-        border-right: none;
         padding-left: 20px;
-        border-left: 1px solid #EAEAEA;
+        order: 1;
+    }
+
+    .navigation__divider {
+        order: 0;
     }
 
     .navigation__item,
@@ -237,8 +245,6 @@ button {
     .navigation__additionally {
         padding-right: 20px;
         display: flex;
-        margin-right: 20px;
-        border-right: 1px solid #EAEAEA;
     }
 
     /* ================ Wrapper ================*/
@@ -321,8 +327,6 @@ button {
     /* ================ Title ================*/
     .title::before {
         top: 42px;
-        /* left: 10%; */
-        /* position: relative; */
     }
 
     /* ================ SlideMenu ================*/
