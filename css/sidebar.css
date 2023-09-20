@@ -37,6 +37,8 @@
     width: 100%;
     letter-spacing: -0.2px;
     transition: all .3s;
+    text-decoration: none;
+    color: #1B1C21;
 }
 
 .sidebar-menu__button--active,
