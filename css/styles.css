@@ -156,8 +156,8 @@ ul {
     display: none;
 }
 
-/* ================ Main ================*/
-.main {
+/* ================ Main Content ================*/
+.main-content {
     height: 100%;
     background-color: #F8F8F8;
     padding-top: 88px;
@@ -203,6 +203,7 @@ ul {
     background-color: transparent;
     border-radius: 6px;
     color: #7E7E82;
+    text-decoration: none;
 }
 
 .slide-menu__item:focus,
@@ -344,8 +345,8 @@ ul {
         display: none;
     }
 
-    /* ================ Main ================*/
-    .main {
+    /* ================ Main Content ================*/
+    .main-content {
         padding-top: 15px;
     }
 
