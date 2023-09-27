@@ -1,0 +1,165 @@
+.body {
+    background-color: #F8F8F8;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ================ Brands ================*/
+.brands {
+    height: 100%;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.brands__title {
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 0;
+    color: #7E7E82;
+    background-image: linear-gradient(to right, #F8F8F8, #fff);
+}
+
+.brands__item {
+    display: flex;
+    width: 240px;
+    padding: 20px 16px;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+
+    background: #FFFFFF 16px 50% no-repeat;
+    box-sizing: border-box;
+}
+
+
+.brands__item--label--lenovo {
+    background-image: url("../img/brands/lenovo.png");
+}
+
+.brands__item--label--samsung {
+    background-image: url("../img/brands/samsung.png");
+}
+
+.brands__item--label--apple {
+    background-image: url("../img/brands/apple.png");
+}
+
+.brands__item--label--bosh {
+    background-image: url("../img/brands/bosh.png");
+}
+
+.brands__item--label--hp {
+    background-image: url("../img/brands/hp.png");
+}
+
+.brands__item--label--acer {
+    background-image: url("../img/brands/acer.png");
+}
+
+.brands__item--label--view-sonic {
+    background-image: url("../img/brands/view_sonic.png");
+}
+
+.brands__item--label--sony {
+    background-image: url("../img/brands/sony.png");
+}
+
+.brands__button {
+    line-height: 34px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+
+    background-color: #fff;
+    border: 2px solid #FF3E79;
+}
+
+.brands__dropdown {
+    fill: #FF3E79;
+    height: 12px;
+    width: 8px;
+
+    transition: all .2s ease-in;
+}
+
+.brands__button:hover .brands__dropdown {
+    fill: #fff;
+}
+
+.brands__button:hover {
+    background-color: #FF3E79;
+}
+
+.brands__readmore {
+    display: none;
+}
+
+/* ================ Swiper ================*/
+.swiper {
+    mask-image: linear-gradient(to right, transparent 0%, black 20% 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 0%, black 20% 80%, transparent 100%);
+}
+
+.swiper-wrapper {
+    padding-bottom: 36px;
+    padding-left: 16px;
+    padding-top: 16px;
+    width: auto !important;
+}
+
+.swiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: #DDDDDD;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #B5B6BC;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: auto !important;
+}
+
+@media (min-width: 768px) {
+
+    /* ================ Brands ================*/
+    .brands__readmore {
+        display: block;
+        margin-left: 24px;
+    }
+
+    .brands__title {
+        padding: 16px 24px;
+    }
+
+    .brands__item {
+        width: 224px;
+    }
+
+    /* ================ Swiper ================*/
+    .swiper {
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 24px;
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media (min-width: 800px) {
+
+    /* ================ Brands ================*/
+    .brands__item {
+        width: 240px;
+    }
+}

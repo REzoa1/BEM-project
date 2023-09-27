@@ -242,6 +242,18 @@ ul {
     color: #1B1C21;
 }
 
+.read-more__text:hover {
+    color: #7E7E82;
+}
+
+.read-more__img {
+    transition: all .3s ease;
+}
+
+.read-more__img--active {
+    transform: rotate(180deg);
+}
+
 /* ================ Image ================*/
 .image {
     margin-top: 16px;
